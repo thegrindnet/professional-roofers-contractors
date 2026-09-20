@@ -1,0 +1,16 @@
+.site {
+  overflow: clip;
+  background: #fff;
+}
+.site__skip {
+  position: fixed;
+  z-index: 100;
+  top: -80px;
+  left: 20px;
+  padding: 16px 22px;
+  background: white;
+  color: var(--ink);
+}
+.site__skip:focus {
+  top: 12px;
+}

@@ -1,0 +1,99 @@
+professional-roofers-contractors/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── dist/
+│   ├── assets/
+│   │   ├── commercial-roof-project-xwngJuuw.webp
+│   │   ├── completed-shingle-roof-Ciibsjd3.webp
+│   │   ├── crew-lift-exterior-deGC8xKP.webp
+│   │   ├── index-BS2RrmGQ.js
+│   │   ├── index-ZbsFY2-P.css
+│   │   ├── professional-roofers-logo-BsGM2p78.webp
+│   │   ├── roof-deck-work-BKU1DQwN.webp
+│   │   ├── roof-membrane-installation-bc9MJPnf.webp
+│   │   ├── roof-underlayment-detail-CMUtsVSs.webp
+│   │   ├── roofing-aerial-hero-D4eVlZqY.webp
+│   │   ├── roofing-aerial-hero-mobile-XxWFb7Hb.webp
+│   │   ├── roofing-crew-on-site-BLOeBFJ_.webp
+│   │   ├── shingle-project-in-progress-DWeRmUyu.webp
+│   │   └── team-project-planning-CoxRsRiK.webp
+│   ├── favicon.png
+│   └── index.html
+├── public/
+│   └── favicon.png
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   │   └── arrow-up-right.svg
+│   │   └── images/
+│   │       ├── business-card-back.webp
+│   │       ├── business-card-front.webp
+│   │       ├── commercial-roof-project.webp
+│   │       ├── completed-shingle-roof.webp
+│   │       ├── crew-lift-exterior.webp
+│   │       ├── professional-roofers-logo.webp
+│   │       ├── roof-deck-work.webp
+│   │       ├── roof-membrane-installation.webp
+│   │       ├── roof-underlayment-detail.webp
+│   │       ├── roofing-aerial-hero-mobile.webp
+│   │       ├── roofing-aerial-hero.webp
+│   │       ├── roofing-crew-on-site.webp
+│   │       ├── shingle-project-in-progress.webp
+│   │       └── team-project-planning.webp
+│   ├── components/
+│   │   ├── About/
+│   │   │   ├── About.css
+│   │   │   └── About.jsx
+│   │   ├── App/
+│   │   │   ├── App.css
+│   │   │   └── App.jsx
+│   │   ├── Contact/
+│   │   │   ├── Contact.css
+│   │   │   └── Contact.jsx
+│   │   ├── Faq/
+│   │   │   ├── Faq.css
+│   │   │   └── Faq.jsx
+│   │   ├── Footer/
+│   │   │   ├── Footer.css
+│   │   │   └── Footer.jsx
+│   │   ├── Gallery/
+│   │   │   ├── Gallery.css
+│   │   │   └── Gallery.jsx
+│   │   ├── Header/
+│   │   │   ├── Header.css
+│   │   │   └── Header.jsx
+│   │   ├── Hero/
+│   │   │   ├── Hero.css
+│   │   │   └── Hero.jsx
+│   │   ├── Icon/
+│   │   │   ├── Icon.css
+│   │   │   └── Icon.jsx
+│   │   ├── Navigation/
+│   │   │   ├── Navigation.css
+│   │   │   └── Navigation.jsx
+│   │   ├── ServiceMap/
+│   │   │   ├── ServiceMap.css
+│   │   │   └── ServiceMap.jsx
+│   │   ├── Services/
+│   │   │   ├── Services.css
+│   │   │   └── Services.jsx
+│   │   └── Testimonials/
+│   │       ├── Testimonials.css
+│   │       └── Testimonials.jsx
+│   ├── utils/
+│   │   └── constants.js
+│   ├── vendor/
+│   │   └── normalize.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── .nvmrc
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── PROJECT-TREE.txt
+├── README.md
+├── VERIFICATION.md
+└── vite.config.js

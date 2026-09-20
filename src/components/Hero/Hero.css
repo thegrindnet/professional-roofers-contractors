@@ -1,0 +1,240 @@
+.hero {
+  position: relative;
+  background: var(--ink);
+  color: white;
+  isolation: isolate;
+}
+.hero__inner {
+  position: relative;
+  min-height: 670px;
+  display: flex;
+  align-items: center;
+  padding-block: 72px 86px;
+}
+.hero__visual {
+  position: absolute;
+  inset: 0 0 96px 30%;
+  z-index: -2;
+  overflow: hidden;
+}
+.hero__visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, #070e13 0%, #070e13cf 18%, #070e1322 60%),
+    linear-gradient(0deg, #070e13c9, transparent 45%);
+}
+.hero__visual picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 60% center;
+}
+.hero__content {
+  width: 650px;
+  max-width: 60%;
+}
+.hero .eyebrow {
+  color: #bfcede;
+  font-size: 0.75rem;
+  letter-spacing: 0.13em;
+}
+.hero h1 {
+  font-size: clamp(3.7rem, 6.4vw, 6rem);
+  line-height: 0.99;
+  letter-spacing: -0.055em;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+.hero h1 span {
+  color: #73a4f1;
+}
+.hero__description {
+  max-width: 450px;
+  font-size: 1rem;
+  color: #c0cad4;
+  margin-bottom: 32px;
+}
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.hero__actions .button--primary {
+  background: #285bb2;
+}
+.hero__actions .button--primary:hover {
+  background: #346dd0;
+}
+.hero__note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  margin-top: 34px;
+  font-size: 0.75rem;
+  letter-spacing: 0.13em;
+  color: #abb5c2;
+}
+.hero__note span + span {
+  padding-left: 22px;
+  border-left: 1px solid #687485;
+}
+.hero__angle {
+  position: absolute;
+  right: 0;
+  bottom: 96px;
+  width: 34%;
+  height: 7px;
+  background: #3978de;
+  transform: skewX(-38deg);
+  transform-origin: right;
+}
+.hero__caption {
+  align-self: flex-end;
+  margin-left: auto;
+  padding-left: 35px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  line-height: 1.5;
+}
+.hero__caption a {
+  display: grid;
+  place-items: center;
+  border: 1px solid #ffffff80;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.hero__systems {
+  background: #102038;
+  border-block: 1px solid #ffffff16;
+}
+.hero__systems-inner {
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+}
+.hero__systems-inner > span {
+  font-size: 0.75rem;
+  line-height: 1.7;
+  letter-spacing: 0.1em;
+  color: #a9b8cd;
+}
+.hero__systems-inner strong {
+  color: white;
+}
+.hero__systems p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.hero__systems i {
+  margin-inline: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #4e6a91;
+}
+.hero__systems a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.8rem;
+}
+@media (min-width: 1550px) {
+  .hero__inner {
+    min-height: 760px;
+  }
+}
+@media (max-width: 1100px) {
+  .hero__systems i {
+    margin-inline: 13px;
+  }
+  .hero__systems a {
+    display: none;
+  }
+  .hero__content {
+    max-width: 70%;
+  }
+}
+@media (max-width: 760px) {
+  .hero__inner {
+    min-height: 650px;
+    padding-block: 64px 70px;
+  }
+  .hero__visual {
+    left: 12%;
+  }
+  .hero__visual::after {
+    background:
+      linear-gradient(90deg, #070e13ed, #070e1360),
+      linear-gradient(0deg, #070e13dd, transparent);
+  }
+  .hero__content {
+    max-width: 100%;
+    width: 560px;
+  }
+  .hero__caption {
+    display: none;
+  }
+  .hero h1 {
+    font-size: clamp(3.5rem, 11vw, 5.5rem);
+  }
+  .hero__description {
+    max-width: 430px;
+  }
+  .hero__systems-inner {
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    padding-block: 24px;
+  }
+  .hero__systems-inner > span br {
+    display: none;
+  }
+  .hero__systems-inner > span strong {
+    margin-left: 5px;
+  }
+  .hero__angle {
+    bottom: 118px;
+  }
+  .hero__visual {
+    bottom: 118px;
+  }
+}
+@media (max-width: 400px) {
+  .hero__inner {
+    padding-block: 44px;
+    min-height: 635px;
+  }
+  .hero h1 {
+    font-size: clamp(2.9rem, 13.5vw, 3.35rem);
+  }
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero__actions .button {
+    padding-inline: 16px;
+  }
+  .hero__note span + span {
+    padding: 0;
+    border: 0;
+  }
+  .hero__systems p {
+    font-size: 1rem;
+  }
+  .hero__systems i {
+    margin-inline: 8px;
+  }
+}
