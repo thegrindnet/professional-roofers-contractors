@@ -28,7 +28,6 @@ export default function Services() {
             <a className="services__card" href="#contact" key={service.title}>
               <div className="services__top">
                 <Icon name={service.icon} />
-                <span>{service.number}</span>
               </div>
               <h3>{service.title}</h3>
               <p>{service.detail}</p>
